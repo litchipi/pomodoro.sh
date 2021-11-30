@@ -43,6 +43,7 @@ if [ ! -e ~/.alarm_sound ] ; then
 fi
 
 function start_pomodoro() {
+    echo "Starting a $1 mins timer"
     sleep $1m
     mpv ~/.alarm_sound &
     MUSIC_PLAYER_PID=$!
