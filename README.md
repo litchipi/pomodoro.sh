@@ -1,12 +1,6 @@
 # Pomodoro.sh
 Just a simple timer that plays music
 
-Requires to run:
-```
-zenity
-mpv
-```
-
 To install, simply execute `./install.sh`.
 
 Alternatively, you can set where the aliases are written to using the
@@ -23,3 +17,7 @@ Set a timer: `pomodoro <number of minutes>`
 Set a default 20 mins timer: `pomodoro`
 
 Stop the started timer: `stop_pomodoro`
+
+## Dependencies
+
+Requires `zenity` and `mpv` to run
